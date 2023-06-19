@@ -13,6 +13,15 @@ import Tiago from './img/Foto-Participantes/fotoTiago.png';
 import Luis from './img/Foto-Participantes/fotoLuis.png';
 import Osmar from './img/Foto-Participantes/fotoOsmar.png';
 
+import Figma from './img/Tools/figmaLogo.svg';
+import Firebase from './img/Tools/firebaseLogo.svg';
+import Github from './img/Tools/githubLogo.svg';
+import Mongo from './img/Tools/mongoLogo.svg';
+import Mysql from './img/Tools/mysqlLogo.svg';
+import Node from './img/Tools/nodeLogo.svg';
+import ReactNative from './img/Tools/reactLogo.svg';
+import Socketio from './img/Tools/socketioLogo.svg';
+
 export default function TelaDownload() {
     return (
         <div className="container-tela-download">
@@ -108,6 +117,67 @@ export default function TelaDownload() {
 
                 </div>
 
+            </div>
+
+            <div className="section-4">
+
+                <div className="text-container">
+
+                    <div className="text">
+                        <p>O imovim é um projeto de conclusão de curso elaborado durante o curso de Desenvolvimento de Sistemas na Etec de Embu.</p>
+                        <p>O nosso objetivo é unir as comunidades esportivas incentivando eventos, atividades físicas e socialização entre pessoas com o mesmo interesse </p>
+                    </div>
+
+                    <div className="links">
+                        <p>Acesse a monografia oficial a partir deste LINK</p>
+                        <p>Acesse o repositório do projeto em: https://github.com/Imovim</p>
+                    </div>
+
+                </div>
+
+                <div className="tools-container">
+                    <h1>Foi desenvolvido através das seguintes tecnologias:</h1>
+
+                    {/* <div className="tools-1"> */}
+
+                        <div className="tools-card">
+                            <img src={ReactNative} />
+                        </div>
+
+                        <div className="tools-card">
+                            <img src={Node} />
+                        </div>
+
+                        <div className="tools-card">
+                            <img src={Mysql} />
+                        </div>
+
+                        <div className="tools-card">
+                            <img src={Firebase} />
+                        </div>
+
+                    {/* </div> */}
+
+                    {/* <div className="tools-2"> */}
+
+                        <div className="tools-card">
+                            <img src={Mongo} />
+                        </div>
+
+                        <div className="tools-card">
+                            <img src={Socketio} />
+                        </div>
+
+                        <div className="tools-card">
+                            <img src={Figma} />
+                        </div>
+
+                        <div className="tools-card">
+                            <img src={Github} />
+                        </div>
+                    </div>
+
+                {/* </div> */}
             </div>
 
         </div>

@@ -28,7 +28,7 @@
     margin-top: 35px;
 }
 
-.menu-container img{
+.menu-container img {
     width: 50%;
 }
 
@@ -50,7 +50,7 @@
 .slogan-container {
     width: 100%;
     height: auto;
-    
+
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -90,7 +90,7 @@
     font-family: sans-serif;
 
     margin-bottom: 25px;
-    
+
     background: linear-gradient(174.1deg, #FF7926 -29.75%, #A512BD 152.99%);
 }
 
@@ -125,7 +125,7 @@
     background: linear-gradient(0deg, #F8670E -2.54%, #A312BB 65.28%, #A312BB 65.28%);
 }
 
-.section-3 h1{
+.section-3 h1 {
     color: #FFF;
     text-align: center;
     font-size: 35px;
@@ -178,15 +178,95 @@
     color: #FFF;
     text-align: center;
 
-    border-radius: 25px;
+    border-radius: 30px;
 
-    padding: 5px;
+    padding: 10px;
 
     background: rgba(0, 0, 0, 0.2);
 }
 
 .devs-card h4 {
     font-size: 20px;
-    
+
     color: #FFF;
+}
+
+.section-4 {
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+
+    padding-left: 35px;
+    padding-right: 35px;
+    
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+    background-color: #FFF;
+}
+
+.text-container {
+    width: 50%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.text-container .text {
+    border-left: 4px solid #A512BD;
+
+    margin-bottom: 25px;
+
+    padding: 15px;
+}
+
+.text-container .text p {
+    font-size: 20px;
+
+    margin-bottom: 15px;
+}
+
+.text-container .links p {
+    font-size: 20px;
+}
+
+.text-container .links {
+    border-left: 4px solid #A512BD;
+
+    padding: 15px;
+}
+
+.tools-container {
+    width: 50%;
+
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    
+    flex-wrap: wrap;
+}
+
+.tools-container h1 {
+    font-size: 25px;
+}
+
+.tools-card {
+    width: 130px;
+    height: 130px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 20px;
+
+    background: linear-gradient(174.1deg, #FF7926 -29.75%, #A512BD 152.99%);
+}
+
+.tools-card img{
+    width: 110px;
 }
