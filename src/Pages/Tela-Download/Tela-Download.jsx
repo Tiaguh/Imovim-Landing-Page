@@ -22,6 +22,10 @@ import Node from './img/Tools/nodeLogo.svg';
 import ReactNative from './img/Tools/reactLogo.svg';
 import Socketio from './img/Tools/socketioLogo.svg';
 
+import Title from './img/title.svg';
+
+import Footer from './img/Footer/Footer.svg'
+
 export default function TelaDownload() {
     return (
         <div className="container-tela-download">
@@ -36,6 +40,7 @@ export default function TelaDownload() {
                         <div className="menu">
                             <h1>Baixar</h1>
                             <h1>Sobre</h1>
+                            <h1>Termos de uso</h1>
                             <h1>Contato</h1>
                         </div>
 
@@ -68,7 +73,7 @@ export default function TelaDownload() {
 
             <div className="section-3">
 
-                <div className="container-cards">
+                <div className="container-cards-text">
                     <div className="card">
                         <img src={Person} />
                         <h2>Conheça pessoas novas</h2>
@@ -136,9 +141,12 @@ export default function TelaDownload() {
                 </div>
 
                 <div className="tools-container">
-                    <h1>Foi desenvolvido através das seguintes tecnologias:</h1>
+                    
+                    <div className="tools-container-text" >
+                        <h1>Foi desenvolvido através das seguintes tecnologias:</h1>
+                    </div>
 
-                    {/* <div className="tools-1"> */}
+                    <div className='tools-card-container'>
 
                         <div className="tools-card">
                             <img src={ReactNative} />
@@ -156,10 +164,6 @@ export default function TelaDownload() {
                             <img src={Firebase} />
                         </div>
 
-                    {/* </div> */}
-
-                    {/* <div className="tools-2"> */}
-
                         <div className="tools-card">
                             <img src={Mongo} />
                         </div>
@@ -175,9 +179,24 @@ export default function TelaDownload() {
                         <div className="tools-card">
                             <img src={Github} />
                         </div>
-                    </div>
 
-                {/* </div> */}
+                    </div>
+                </div>
+
+            </div>
+
+            <div className="section-5">
+                <img src={Title} />
+
+                <h5>Quer nos mandar uma sugestão ou tirar alguma dúvida? </h5>
+                <h5>Mande um email para</h5>
+                <h5>Email</h5>
+            </div>
+
+            <div className="section-6">
+                <img src={Footer} />
+
+
             </div>
 
         </div>

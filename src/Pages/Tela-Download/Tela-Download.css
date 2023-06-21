@@ -130,13 +130,22 @@
     text-align: center;
     font-size: 35px;
 
-    margin-top: 50px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.container-cards-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
 .container-cards {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+
+    margin-bottom: 50px;
 }
 
 .card {
@@ -170,6 +179,10 @@
     align-items: center;
 
     gap: 5px;
+}
+
+.devs-card img {
+    width: 220px;
 }
 
 .devs-card h3 {
@@ -244,29 +257,79 @@
     width: 50%;
 
     display: flex;
-    flex-direction: row;
-    gap: 25px;
+    align-items: center;
+    gap: 50px;
     
     flex-wrap: wrap;
 }
 
-.tools-container h1 {
-    font-size: 25px;
+.tools-container-text {
+    font-size: 20px;
+    text-align: center;
+}
+
+.tools-card-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    gap: 30px;
+
+    padding: 30px;
 }
 
 .tools-card {
-    width: 130px;
-    height: 130px;
+    width: 160px;
+    height: 160px;
 
     display: flex;
     justify-content: center;
     align-items: center;
 
-    border-radius: 20px;
+    border-radius: 15px;
 
     background: linear-gradient(174.1deg, #FF7926 -29.75%, #A512BD 152.99%);
 }
 
 .tools-card img{
-    width: 110px;
+    width: 135px;
+}
+
+.section-5 {
+    width: 100%;
+    height: 40vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    gap: 25px;
+
+    background-color: #EBEBEB;
+}
+
+.section-5 img {
+    width: 400px;
+
+    margin-top: 50px;
+}
+
+.section-5 h5{
+    font-size: 25px;
+}
+
+.section-6{
+    width: 100%;
+    height: 30vh;
+
+    overflow-y: hidden;
+
+    background-color: #EBEBEB;
+}
+
+.section-6 img{
+    width: 100%;
 }
