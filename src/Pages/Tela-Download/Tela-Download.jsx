@@ -135,13 +135,19 @@ export default function TelaDownload() {
 
                     <div className="links">
                         <p>Acesse a monografia oficial a partir deste LINK</p>
-                        <p>Acesse o repositório do projeto em: https://github.com/Imovim</p>
+
+                        <p>Acesse o repositório do projeto em:
+                            <a href="https://github.com/Imovim">
+                                https://github.com/Imovim
+                            </a>
+                        </p>
+                        
                     </div>
 
                 </div>
 
                 <div className="tools-container">
-                    
+
                     <div className="tools-container-text" >
                         <h1>Foi desenvolvido através das seguintes tecnologias:</h1>
                     </div>
@@ -195,8 +201,6 @@ export default function TelaDownload() {
 
             <div className="section-6">
                 <img src={Footer} />
-
-
             </div>
 
         </div>
