@@ -1,5 +1,6 @@
 import React from 'react';
 import './Tela-Download.css';
+import { Link } from 'react-router-dom'
 
 import Logo from './img/Icons/logo.svg';
 import Mockup from './img/mockup.png';
@@ -40,8 +41,14 @@ export default function TelaDownload() {
                         <div className="menu">
                             <h1>Baixar</h1>
                             <h1>Sobre</h1>
-                            <h1>Termos de uso</h1>
                             <h1>Contato</h1>
+                            
+                            <Link
+                                className="link"
+                                to="termos-de-uso"
+                            >
+                                <h1>Termos de uso</h1>
+                            </Link>
                         </div>
 
                     </div>
@@ -141,7 +148,7 @@ export default function TelaDownload() {
                                 https://github.com/Imovim
                             </a>
                         </p>
-                        
+
                     </div>
 
                 </div>

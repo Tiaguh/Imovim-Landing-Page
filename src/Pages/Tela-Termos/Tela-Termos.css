@@ -1,0 +1,70 @@
+.section-container-tela-termos {
+  width: 100vw;
+  height: auto;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+
+  margin-top: 50px;
+}
+
+.menu-container {
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  margin-top: 35px;
+}
+
+.menu-container img {
+  width: 280px;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  gap: 25px;
+
+  margin-top: 15px;
+}
+
+.menu h1 {
+  font-family: sans-serif;
+  font-size: 20px;
+}
+
+.menu .link {
+  text-decoration: none;
+  color: #000;
+}
+
+.link:hover {
+  border-bottom: 2px solid #A512BD;
+}
+
+.section-container-tela-termos p{
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.section-7{
+  width: 40%;
+}
+
+.section-8{
+  width: 40%;
+}
+
+.title-content {
+  display: flex;
+  flex-direction: row;
+
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
