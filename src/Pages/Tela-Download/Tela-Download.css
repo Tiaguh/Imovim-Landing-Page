@@ -5,33 +5,43 @@
 .section-container {
     width: 100%;
     height: auto;
+
     display: flex;
     flex-direction: row;
-    margin-bottom: 100px;
+
+    margin-bottom: 200px;
 }
 
 .section-1 {
-    width: 35%;
+    width: 40%;
+
     padding-left: 35px;
 }
 
 .menu-container {
     width: 100%;
+    height: 25vh;
+
     display: flex;
     align-items: center;
     flex-direction: column;
+
+    overflow-y: hidden;
+
     margin-top: 35px;
 }
 
 .menu-container img {
-    width: 280px;
+    width: 320px;
 }
 
 .menu {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    
     gap: 25px;
+
     margin-top: 15px;
 }
 
@@ -51,11 +61,14 @@
 
 .slogan-container {
     width: 100%;
+
     height: auto;
     display: flex;
     justify-content: center;
     flex-direction: column;
+
     border-left: 4px solid #A512BD;
+
     padding: 15px;
     margin-top: 40px;
 }
@@ -66,23 +79,32 @@
 
 .download-container {
     width: 100%;
+
     display: flex;
     align-items: center;
     flex-direction: column;
+
     margin-top: 25px;
 }
 
 .download-container button {
     width: 300px;
     height: 80px;
+
     border-radius: 50px;
     border: none;
+
     color: #FFF;
+
     font-weight: bold;
     font-size: 18px;
     font-family: sans-serif;
+
     margin-bottom: 25px;
+
     background: linear-gradient(174.1deg, #FF7926 -29.75%, #A512BD 152.99%);
+
+    cursor: pointer;
 }
 
 .download-container h1 {
@@ -92,12 +114,15 @@
 .qrcode-fds {
     width: 250px;
     height: 250px;
+
     background-color: #000;
+
     margin-top: 25px;
 }
 
 .section-2 {
-    width: 65%;
+    width: 60%;
+
     display: flex;
     justify-content: flex-end;
 }
@@ -109,6 +134,7 @@
 .section-3 {
     width: 100%;
     height: auto;
+
     background: linear-gradient(0deg, #F8670E -2.54%, #A312BB 65.28%, #A312BB 65.28%);
 }
 
@@ -116,16 +142,20 @@
     color: #FFF;
     text-align: center;
     font-size: 35px;
+
     margin-top: 180px;
     margin-bottom: 80px;
 }
 
 .container-cards-text {
     width: 100%;
+
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+
     position: absolute;
+
     margin-top: -100px;
 }
 
@@ -133,18 +163,23 @@
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+
     margin-bottom: 50px;
 }
 
 .card {
     width: 220px;
     height: 220px;
+
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+
     gap: 15px;
+
     background-color: #EBEBEB;
+
     border-radius: 25px;
 }
 
@@ -172,10 +207,13 @@
     font-size: 25px;
     color: #FFF;
     text-align: center;
+
     border-radius: 30px;
+
     padding: 10px;
     margin-bottom: 15px;
     margin-top: 15px;
+
     background: rgba(0, 0, 0, 0.2);
 }
 
@@ -187,19 +225,24 @@
 
 .section-4 {
     width: 100%;
+
     height: auto;
     display: flex;
     flex-direction: row;
+
     gap: 25px;
+
     padding-left: 35px;
     padding-right: 35px;
     margin-top: 50px;
     margin-bottom: 50px;
+
     background-color: #FFF;
 }
 
 .text-container {
     width: 50%;
+
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -207,12 +250,14 @@
 
 .text-container .text {
     border-left: 4px solid #A512BD;
+
     margin-bottom: 25px;
     padding: 15px;
 }
 
 .text-container .text p {
     font-size: 20px;
+
     margin-bottom: 15px;
 }
 
@@ -222,39 +267,48 @@
 
 .text-container .links {
     border-left: 4px solid #A512BD;
+    
     padding: 15px;
 }
 
 .tools-container {
     width: 50%;
+
     display: flex;
     align-items: center;
-    gap: 50px;
     flex-wrap: wrap;
+
+    gap: 50px;    
 }
 
 .tools-container-text {
     font-size: 15px;
+
     text-align: center;
 }
 
 .tools-card-container {
     width: 100%;
+
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    
     gap: 30px;
 }
 
 .tools-card {
     width: 170px;
     height: 170px;
+
     display: flex;
     justify-content: center;
     align-items: center;
+
     border-radius: 15px;
+
     background: linear-gradient(174.1deg, #FF7926 -29.75%, #A512BD 152.99%);
 }
 
@@ -265,16 +319,20 @@
 .section-5 {
     width: 100%;
     height: 50vh;
+
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+
     gap: 25px;
+
     background-color: #EBEBEB;
 }
 
 .section-5 img {
     width: 400px;
+
     margin-top: 50px;
 }
 
@@ -285,12 +343,15 @@
 .section-6 {
     width: 100vw;
     height: 30vh;
+
     overflow-y: hidden;
+
     background-color: #EBEBEB;
 }
 
 .section-6 img {
     width: 100%;
+
     margin-bottom: -15px;
 }
 
@@ -298,142 +359,191 @@
     .section-container {
         width: 100%;
         height: auto;
+
         display: flex;
         flex-direction: column;
+
         margin-bottom: 100px;
     }
+
     .section-1 {
         width: 100%;
     }
+
     .menu-container img {
-        width: 350px;
+        width: 500px;
         margin-bottom: 10px;
     }
+
     .menu {
         display: flex;
         flex-direction: row;
         justify-content: center;
         flex-wrap: wrap;
+
         gap: 15px;
     }
+
     .menu h1 {
         font-size: 30px;
     }
+
     .slogan-container {
         border-left: 5px solid #A512BD;
+
         padding: 30px;
     }
+
     .slogan-container h1 {
         font-size: 35px;
     }
+
     .download-container {
         margin-bottom: 30px;
     }
+
     .download-container button {
         width: 450px;
         height: 100px;
+
         font-size: 25px;
     }
+
     .download-container h1 {
         font-size: 30px;
     }
+
     .qrcode-fds {
         width: 300px;
         height: 300px;
     }
+
     .section-2 {
         width: 100%;
     }
+
     .section-2 img {
         width: 500px;
     }
+
     .section-3 h1 {
         font-size: 40px;
+
         margin-top: 180px;
         margin-bottom: 50px;
     }
+
     .container-cards {
         display: flex;
         flex-direction: column;
+
         gap: 50px;
+
         margin-bottom: 80px;
     }
+
     .devs-card {
         display: flex;
         flex-direction: column;
         align-items: center;
-        gap: 5px;
+
+        gap: 2px;
+
+        margin-bottom: 25px;
     }
+
     .devs-card img {
         width: 350px;
     }
+
     .devs-card h3 {
         font-size: 35px;
         padding: 15px;
     }
+
     .devs-card h4 {
         font-size: 30px;
     }
+
     .section-4 {
         flex-direction: column;
+
         gap: 25px;
     }
+
     .text-container {
         width: 100%;
     }
+
     .text-container .text {
         border-left: 5px solid #A512BD;
+
         margin-bottom: 25px;
         padding: 15px;
     }
+
     .text-container .text p {
         font-size: 30px;
     }
+
     .text-container .links p {
         font-size: 30px;
     }
+
     .text-container .links {
         border-left: 5px solid #A512BD;
     }
+
     .text-container .links a {
         color: #A512BD;
         list-style: none;
     }
+
     .tools-container {
         width: 100%;
+
         display: flex;
         align-items: center;
         flex-wrap: wrap;
     }
+
     .tools-container-text {
         font-size: 18px;
     }
+
     .tools-card-container {
         width: 100%;
         gap: 30px;
     }
+
     .tools-card {
         width: 200px;
         height: 200px;
     }
+
     .tools-card img {
         width: 180px;
     }
+
     .section-5 {
         height: auto;
         gap: 50px;
         padding: 15px;
     }
+
     .section-5 img {
         width: 500px;
         margin-top: 50px;
     }
+
     .section-5 h5 {
         font-size: 28px;
     }
+
     .section-6 {
         height: auto;
     }
+
     .section-6 img {
         width: 100%;
     }
@@ -451,6 +561,7 @@
         height: 240px;
         gap: 15px;
     }
+
     .card img {
         width: 90px;
     }
@@ -462,9 +573,11 @@
         height: 200px;
         gap: 15px;
     }
+
     .card img {
         width: 80px;
     }
+
     .card h2 {
         font-size: 20px;
     }
@@ -476,9 +589,11 @@
         height: 170px;
         gap: 15px;
     }
+
     .card img {
         width: 70px;
     }
+
     .card h2 {
         font-size: 18px;
     }

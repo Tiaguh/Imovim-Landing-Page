@@ -3,6 +3,7 @@ import './Tela-Termos.css';
 import { Link } from 'react-router-dom';
 
 import Logo from './img/logo.svg';
+import Wave from './img/wave-lateral.svg'
 
 export default function TelaTermos() {
   return (
@@ -14,13 +15,18 @@ export default function TelaTermos() {
           <img src={Logo} />
 
           <div className="menu">
-            <h1>Baixar</h1>
+            <Link
+              className="link"
+              to="/"
+            >
+              <h1>Baixar</h1>
+            </Link>
+
             <h1>Sobre</h1>
             <h1>Contato</h1>
 
             <Link
               className="link"
-              to="termos-de-uso"
             >
               <h1>Termos de uso</h1>
             </Link>
@@ -37,18 +43,14 @@ export default function TelaTermos() {
             Seja bem-vindo ao imovim, a rede que te movimenta. Por favor leia com atenção todos os termos abaixo.
           </p>
 
-          <br />
-
           <p>
             Este documento, e todo o conteúdo do site é oferecido pela equipe imovim, neste termo representado apenas por “EQUIPE”, que regulamenta todos os direitos e obrigações com todos que acessam o site, denominado neste termo como “VISITANTE” ou “USUÁRIO”, resguardado todos os direitos previstos na legislação, trazem as cláusulas abaixo como requisito para acesso e visita do mesmo, situado no endereço (ADICIONAR ENDEREÇO DO SITE).visando manter um bom uso e estabelecer as responsabilidades e direitos do usuário, tais quais:
           </p>
 
-          <br />
-
           <div className="title-content">
 
             <h1>1.</h1>
-            <h1>Função do site</h1>
+            <h2>Função do site</h2>
 
           </div>
 
@@ -61,7 +63,7 @@ export default function TelaTermos() {
 
           <div className="title-content">
             <h1>2.</h1>
-            <h1>Do aceite dos termos</h1>
+            <h2>Do aceite dos termos</h2>
           </div>
 
           <p>
@@ -73,34 +75,85 @@ export default function TelaTermos() {
 
           <div className="title-content">
             <h1>3.</h1>
-            <h1>Glossário</h1>
+            <h2>Glossário</h2>
           </div>
 
-          <p>
-            Este termo pode conter algumas palavras específicas que podem não ser de conhecimento geral.Entre elas:
-          </p>
+          <div className="list-termos">
 
-          <p>
-            VISITANTE E USUÁRIO: Todo e qualquer usuário do site, de qualquer forma e meio, que acesse através de computador, notebook, tablet, celular ou quaisquer outros meios, o website ou plataforma da empresa.
-            NAVEGAÇÃO: O ato de visitar páginas e conteúdo do website ou plataforma da empresa.
-            COOKIES: Pequenos arquivos de textos gerados automaticamente pelo site e transmitido para o navegador do visitante, que servem para melhorar a usabilidade do visitante.
-            LOGIN: Dados de acesso do visitante ao realizar o cadastro junto a EMPRESA, dividido entre usuário e senha, que dá acesso às funções restritas do site.
-            HIPERLINKS: São links clicáveis que podem aparecer pelo site ou no conteúdo, que levam para outra página da EMPRESA ou site externo.
-            OFFLINE: Quando o site ou plataforma se encontra indisponível, não podendo ser acessado externamente por nenhum usuário.
-          </p>
+            <div className="list-icon-container">
+              <div className="list-icon" />
+            </div>
 
-          <br />
+            <div className="text-list-container">
+              <p>VISITANTE E USUÁRIO: Todo e qualquer usuário do site, de qualquer forma e meio, que acesse através de computador, notebook, tablet, celular ou quaisquer outros meios, o website ou plataforma da empresa.</p>
+            </div>
+          </div>
 
-          <p>
-            Em caso de dúvidas sobre qualquer palavra utilizada neste termo, o VISITANTE deverá entrar em contato com a EMPRESA através dos canais de comunicação encontradas na plataforma.
-          </p>
+          <div className="list-termos">
+
+            <div className="list-icon-container">
+              <div className="list-icon" />
+            </div>
+
+            <div className="text-list-container">
+              <p>NAVEGAÇÃO: O ato de visitar páginas e conteúdo do website ou plataforma da empresa.</p>
+            </div>
+
+          </div>
+
+          <div className="list-termos">
+
+            <div className="list-icon-container">
+              <div className="list-icon" />
+            </div>
+
+            <div className="text-list-container">
+              <p>COOKIES: Pequenos arquivos de textos gerados automaticamente pelo site e transmitidos para o navegador do visitante, que servem para melhorar a usabilidade do visitante.</p>
+            </div>
+
+          </div>
+
+          <div className="list-termos">
+
+            <div className="list-icon-container">
+              <div className="list-icon" />
+            </div>
+
+            <div className="text-list-container">
+              <p>LOGIN: Dados de acesso do visitante ao realizar o cadastro junto à EMPRESA, dividido entre usuário e senha, que dá acesso às funções restritas do site.</p>
+            </div>
+
+          </div>
+
+          <div className="list-termos">
+            <div className="list-icon-container">
+              <div className="list-icon" />
+            </div>
+
+            <div className="text-list-container">
+              <p>HIPERLINKS: São links clicáveis que podem aparecer pelo site ou no conteúdo, que levam para outra página da EMPRESA ou site externo.</p>
+            </div>
+
+          </div>
+
+          <div className="list-termos">
+            <div className="list-icon-container">
+              <div className="list-icon" />
+            </div>
+
+            <div className="text-list-container">
+              <p>OFFLINE: Quando o site ou plataforma se encontra indisponível, não podendo ser acessado externamente por nenhum usuário.</p>
+            </div>
+
+          </div>
+
         </div>
 
         <div className="section-8">
 
           <div className="title-content">
             <h1>4.</h1>
-            <h1>Do acesso ao site</h1>
+            <h2>Do acesso ao site</h2>
           </div>
 
           <p>
@@ -113,7 +166,7 @@ export default function TelaTermos() {
           </p>
 
           <div className="title-content">
-            <h2>5.</h2>
+            <h1>5.</h1>
             <h2>Da licença de uso e cópia</h2>
           </div>
 
@@ -123,8 +176,8 @@ export default function TelaTermos() {
           </p>
 
           <div className="title-content">
-            <h1>5.1.</h1>
-            <h1>Propriedade Intelectual</h1>
+            <h3>5.1.</h3>
+            <h4>Propriedade Intelectual</h4>
           </div>
 
           <p>
@@ -133,88 +186,120 @@ export default function TelaTermos() {
 
           <div className="title-content">
             <h1>6.</h1>
-            <h1>Das obrigações</h1>
+            <h2>Das obrigações</h2>
           </div>
 
           <p>
             O VISITANTE ao utilizar a plataforma da EQUIPE, concorda integralmente em NÃO:
           </p>
 
-          <h3>1.</h3>
-          <p>
-            violar quaisquer direitos de propriedade intelectual ou de privacidade, incluindo, sem limitação, patentes, direitos autorais, marcas ou segredos comerciais de quaisquer terceiros, incluindo a RHB e suas empresas afiliadas;
-          </p>
+          <div className="regra">
+            <h3>1.</h3>
+            <p>
+              violar quaisquer direitos de propriedade intelectual ou de privacidade, incluindo, sem limitação, patentes, direitos autorais, marcas ou segredos comerciais de quaisquer terceiros, incluindo a RHB e suas empresas afiliadas;
+            </p>
+          </div>
 
-          <h3>2.</h3>
-          <p>
-            carregar, publicar, transmitir ou armazenar qualquer material que:
-          </p>
+          <div className="regra">
+            <h3>2.</h3>
+            <p>
+              carregar, publicar, transmitir ou armazenar qualquer material que:
+            </p>
+          </div>
 
-          <h4>a)</h4>
-          <p>
-            seja ilegal, ofensivo, difamatório, fraudulento, enganoso, danoso, ameaçador, constrangedor, obsceno ou inaceitável;
-          </p>
+          <div className="regra">
+            <h4>a)</h4>
+            <p>
+              seja ilegal, ofensivo, difamatório, fraudulento, enganoso, danoso, ameaçador, constrangedor, obsceno ou inaceitável;
+            </p>
+          </div>
 
-          <h4>b)</h4>
-          <p>
-            viole quaisquer de suas obrigações contratuais ou de confidencialidade;
-          </p>
+          <div className="regra">
+            <h4>b)</h4>
+            <p>
+              viole quaisquer de suas obrigações contratuais ou de confidencialidade;
+            </p>
+          </div>
 
-          <h4>c)</h4>
-          <p>
-            perturbe ou interfira nas operações normais da plataforma, tais como a publicação ou a transmissão de vírus, a publicação continuada de materiais repetidos ou a publicação de arquivos muito grandes, fora do tamanho normal; ou
-          </p>
+          <div className="regra">
+            <h4>c)</h4>
+            <p>
+              perturbe ou interfira nas operações normais da plataforma, tais como a publicação ou a transmissão de vírus, a publicação continuada de materiais repetidos ou a publicação de arquivos muito grandes, fora do tamanho normal; ou
+            </p>
+          </div>
 
-          <h4>d)</h4>
-          <p>
-            violar direitos de privacidade ou outros direitos de terceiros através do uso abusivo de Materiais, incluindo, sem limitação, através do constrangimento ou "perseguição" contra outra pessoa, do envio de mensagens de email não solicitadas ou da coleta de informações pessoais de terceiros;
-          </p>
+          <div className="regra">
+            <h4>d)</h4>
+            <p>
+              violar direitos de privacidade ou outros direitos de terceiros através do uso abusivo de Materiais, incluindo, sem limitação, através do constrangimento ou "perseguição" contra outra pessoa, do envio de mensagens de email não solicitadas ou da coleta de informações pessoais de terceiros;
+            </p>
+          </div>
 
-          <h4>e)</h4>
-          <p>
-            violar ou tentar violar quaisquer medidas de segurança da plataforma;
-          </p>
+          <div className="regra">
+            <h4>e)</h4>
+            <p>
+              violar ou tentar violar quaisquer medidas de segurança da plataforma;
+            </p>
+          </div>
 
-          <h4>f)</h4>
-          <p>
-            usar quaisquer dispositivos, processos ou mecanismos para monitorar, recuperar, pesquisar ou acessar dados da plataforma ou qualquer Material sem o consentimento prévio e por escrito da EQUIPE, através, por exemplo, de robôs ou sistemas de varredura e armazenamento de dados ("spider");
-          </p>
+          <div className="regra">
+            <h4>f)</h4>
+            <p>
+              usar quaisquer dispositivos, processos ou mecanismos para monitorar, recuperar, pesquisar ou acessar dados da plataforma ou qualquer Material sem o consentimento prévio e por escrito da EQUIPE, através, por exemplo, de robôs ou sistemas de varredura e armazenamento de dados ("spider");
+            </p>
+          </div>
 
-          <h4>g)</h4>
-          <p>
-            acessar ou tentar acessar qualquer conta ou identificação de terceiros contida na plataforma;
-          </p>
+          <div className="regra">
+            <h4>g)</h4>
+            <p>
+              acessar ou tentar acessar qualquer conta ou identificação de terceiros contida na plataforma;
+            </p>
+          </div>
 
-          <h4>h)</h4>
-          <p>
-            copiar, modificar, reproduzir, apagar, distribuir, realizar download, armazenar, transmitir, vender, revender, publicar, realizar engenharia reversa ou criar obras derivadas de quaisquer Materiais, exceto materiais que tenham sido submetidos por você e sejam de sua propriedade;
-          </p>
+          <div className="regra">
+            <h4>h)</h4>
+            <p>
+              copiar, modificar, reproduzir, apagar, distribuir, realizar download, armazenar, transmitir, vender, revender, publicar, realizar engenharia reversa ou criar obras derivadas de quaisquer Materiais, exceto materiais que tenham sido submetidos por você e sejam de sua propriedade;
+            </p>
 
-          <h4>i)</h4>
-          <p>
-            publicar ou submeter qualquer informação imprecisa, falsa ou incompleta não condizentes com a realidade;
-          </p>
+          </div>
 
-          <h4>j)</h4>
-          <p>
-            passar-se por outra pessoa ou organização;
-          </p>
+          <div className="regra">
+            <h4>i)</h4>
+            <p>
+              publicar ou submeter qualquer informação imprecisa, falsa ou incompleta não condizentes com a realidade;
+            </p>
+          </div>
 
-          <h4>k)</h4>
-          <p>
-            fornecer falsa informação sobre você, sua afiliação junto a um terceiro ou sua organização;
-          </p>
+          <div className="regra">
+            <h4>j)</h4>
+            <p>
+              passar-se por outra pessoa ou organização;
+            </p>
+          </div>
 
-          <h4>l)</h4>
-          <p>
-            violar estes termos nem incentivar ninguém a fazê - lo;
-          </p >
+          <div className="regra">
+            <h4>k)</h4>
+            <p>
+              fornecer falsa informação sobre você, sua afiliação junto a um terceiro ou sua organização;
+            </p>
+          </div>
 
-        </div >
+          <div className="regra">
+            <h4>l)</h4>
+            <p>
+              violar estes termos nem incentivar ninguém a fazê - lo;
+            </p>
+          </div>
 
+        </div>
 
-      </div >
+      </div>
 
-    </div >
+      <div className="wave-container">
+        <img src={Wave} />
+      </div>
+
+    </div>
   )
 }

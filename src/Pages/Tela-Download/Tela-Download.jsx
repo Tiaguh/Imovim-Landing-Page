@@ -42,7 +42,7 @@ export default function TelaDownload() {
                             <h1>Baixar</h1>
                             <h1>Sobre</h1>
                             <h1>Contato</h1>
-                            
+
                             <Link
                                 className="link"
                                 to="termos-de-uso"
@@ -60,9 +60,11 @@ export default function TelaDownload() {
 
                     <div className="download-container">
 
-                        <button>
-                            CLIQUE AQUI PARA BAIXAR
-                        </button>
+                        <a href="" download>
+                            <button>
+                                CLIQUE AQUI PARA BAIXAR
+                            </button>
+                        </a>
 
                         <h1>Ou escaneie o QR Code abaixo</h1>
 
@@ -144,7 +146,7 @@ export default function TelaDownload() {
                         <p>Acesse a monografia oficial a partir deste LINK</p>
 
                         <p>Acesse o repositório do projeto em:
-                            <a href="https://github.com/Imovim">
+                            <a style={{ marginLeft: 5 }} href="https://github.com/Imovim">
                                 https://github.com/Imovim
                             </a>
                         </p>
@@ -203,7 +205,7 @@ export default function TelaDownload() {
 
                 <h5>Quer nos mandar uma sugestão ou tirar alguma dúvida? </h5>
                 <h5>Mande um email para</h5>
-                <h5>Email</h5>
+                <h5>projeto.imovim@gmail.com</h5>
             </div>
 
             <div className="section-6">
