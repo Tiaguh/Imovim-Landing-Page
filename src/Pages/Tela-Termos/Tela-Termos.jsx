@@ -22,9 +22,6 @@ export default function TelaTermos() {
               <h1>Baixar</h1>
             </Link>
 
-            <h1>Sobre</h1>
-            <h1>Contato</h1>
-
             <Link
               className="link"
             >

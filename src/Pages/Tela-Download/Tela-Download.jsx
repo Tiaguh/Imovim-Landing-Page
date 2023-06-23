@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import './Tela-Download.css';
 import { Link } from 'react-router-dom'
 
@@ -28,6 +28,17 @@ import Title from './img/title.svg';
 import Footer from './img/Footer/Footer.svg'
 
 export default function TelaDownload() {
+    const emailRef = useRef(null);
+    const downloadRef = useRef(null);
+
+    const scrollToEmail = () => {
+        emailRef.current.scrollIntoView({ behavior: 'smooth' });
+    };
+
+    const scrollToDownload = () => {
+        downloadRef.current.scrollIntoView({ behavior: 'smooth' });
+    };
+
     return (
         <div className="container-tela-download">
 
@@ -39,9 +50,19 @@ export default function TelaDownload() {
                         <img src={Logo} />
 
                         <div className="menu">
-                            <h1>Baixar</h1>
-                            <h1>Sobre</h1>
-                            <h1>Contato</h1>
+                            <Link
+                                className="link"
+                                onClick={scrollToDownload}
+                            >
+                                <h1>Baixar</h1>
+                            </Link>
+
+                            <Link
+                                className="link"
+                                onClick={scrollToEmail}
+                            >
+                                <h1>Contato</h1>
+                            </Link>
 
                             <Link
                                 className="link"
@@ -53,7 +74,10 @@ export default function TelaDownload() {
 
                     </div>
 
-                    <div className="slogan-container">
+                    <div
+                        ref={downloadRef}
+                        className="slogan-container"
+                    >
                         <h1>Tecnologia + Esportes = imovim</h1>
                         <h1>Faça parte da rede que te movimenta</h1>
                     </div>
@@ -208,7 +232,7 @@ export default function TelaDownload() {
 
                 <h5>Quer nos mandar uma sugestão ou tirar alguma dúvida? </h5>
                 <h5>Mande um email para</h5>
-                <h5>projeto.imovim@gmail.com</h5>
+                <h5 ref={emailRef}>projeto.imovim@gmail.com</h5>
             </div>
 
             <div className="section-6">
