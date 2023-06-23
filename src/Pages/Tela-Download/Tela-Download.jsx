@@ -4,6 +4,9 @@ import { Link } from 'react-router-dom'
 
 import Logo from './img/Icons/logo.svg';
 import Mockup from './img/mockup.png';
+import FullMockup from './img/fullMockup.png';
+
+import QrCode from './img/qrcode.png'
 
 import Person from './img/Icons/person-icon.svg';
 import Calendar from './img/Icons/calendar.svg';
@@ -84,7 +87,7 @@ export default function TelaDownload() {
 
                     <div className="download-container">
 
-                        <a href="" download>
+                        <a href="https://expo.dev/artifacts/eas/z7DJZA7hP7h57C5skMuwX.apk" download>
                             <button>
                                 CLIQUE AQUI PARA BAIXAR
                             </button>
@@ -92,7 +95,9 @@ export default function TelaDownload() {
 
                         <h1>Ou escaneie o QR Code abaixo</h1>
 
-                        <div className="qrcode-fds"></div>
+                        <div className="qrcode-fds">
+                            <img src={QrCode} />
+                        </div>
 
                     </div>
 
@@ -100,6 +105,8 @@ export default function TelaDownload() {
 
                 <div className="section-2">
                     <img src={Mockup} />
+
+                    <img className='full-mockup' src={FullMockup} />
                 </div>
 
             </div>

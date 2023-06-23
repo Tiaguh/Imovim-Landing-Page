@@ -112,12 +112,22 @@
 }
 
 .qrcode-fds {
-    width: 250px;
-    height: 250px;
+    width: 320px;
+    height: 320px;
 
-    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
     margin-top: 25px;
+
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.qrcode-fds img {
+    width: 320px;
+    height: 320px;
 }
 
 .section-2 {
@@ -129,6 +139,10 @@
 
 .section-2 img {
     width: 600px;
+}
+
+.section-2 .full-mockup {
+    display: none;
 }
 
 .section-3 {
@@ -427,10 +441,19 @@
 
     .section-2 {
         width: 100%;
+
+        display: flex;
+        justify-content: center;
     }
 
     .section-2 img {
-        width: 500px;
+        display: none;
+    }
+
+    .section-2 .full-mockup {
+        display: block;
+
+        width: 800px;
     }
 
     .section-3 h1 {
@@ -567,13 +590,14 @@
         padding: 5px;
     }
 
-    .section-5 img {
-        width: 400px;
+    .section-2 {
+        display: none;
     }
 
     .container-cards-text {
         display: none;
     }
+
 }
 
 @media (max-width: 750px) {
@@ -581,10 +605,11 @@
         display: none;
     }
 
-    .section-2 img {
-        display: none;
-    }
+    .section-2 .full-mockup {
+        display: block;
 
+        width: 600px;
+    }
 }
 
 @media (max-width: 400px) {
@@ -601,8 +626,8 @@
     }
 
     .section-3 h1 {
-        margin-top: 80px;
-        margin-bottom: 80px;
+        margin-top: 50px;
+        margin-bottom: 50px;
     }
 
     .section-5 img {
