@@ -84,8 +84,8 @@ export default function TelaDownload() {
                         <h1>Faça parte da rede que te movimenta</h1>
                     </div>
 
-                    <div 
-                        className="download-container" 
+                    <div
+                        className="download-container"
                         ref={downloadRef}
                     >
 
@@ -137,27 +137,35 @@ export default function TelaDownload() {
                 <div className="container-cards">
 
                     <div className="devs-card">
-                        <img src={Camila} />
+                        <a href="https://github.com/Camila-Piovesan">
+                            <img src={Camila} />
+                        </a>
                         <h3>Camila Piovesan</h3>
                         <h4>Design</h4>
                         <h4>Documentação</h4>
                     </div>
 
                     <div className="devs-card">
-                        <img src={Tiago} />
+                        <a href="https://github.com/Tiaguh">
+                            <img src={Tiago} />
+                        </a>
                         <h3>Tiago Alves</h3>
                         <h4>Frontend Developer</h4>
                     </div>
 
                     <div className="devs-card">
-                        <img src={Luis} />
+                        <a href="https://github.com/luisfelipe2104">
+                            <img src={Luis} />
+                        </a>
                         <h3>Luis Felipe</h3>
                         <h4>Backend Developer</h4>
                         <h4>Banco de Dados</h4>
                     </div>
 
                     <div className="devs-card">
-                        <img src={Osmar} />
+                        <a href="https://github.com/Brun0442">
+                            <img src={Osmar} />
+                        </a>
                         <h3>Osmar Bruno</h3>
                         <h4>FullStack Developer</h4>
                     </div>
