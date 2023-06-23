@@ -78,14 +78,16 @@ export default function TelaDownload() {
                     </div>
 
                     <div
-                        ref={downloadRef}
                         className="slogan-container"
                     >
                         <h1>Tecnologia + Esportes = imovim</h1>
                         <h1>Faça parte da rede que te movimenta</h1>
                     </div>
 
-                    <div className="download-container">
+                    <div 
+                        className="download-container" 
+                        ref={downloadRef}
+                    >
 
                         <a href="https://expo.dev/artifacts/eas/z7DJZA7hP7h57C5skMuwX.apk" download>
                             <button>
