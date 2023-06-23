@@ -143,12 +143,15 @@ export default function TelaDownload() {
                     </div>
 
                     <div className="links">
-                        <p>Acesse a monografia oficial a partir deste LINK</p>
+                        {/* <p>Acesse a monografia oficial a partir deste LINK</p> */}
 
-                        <p>Acesse o repositório do projeto em:
-                            <a style={{ marginLeft: 5 }} href="https://github.com/Imovim">
-                                https://github.com/Imovim
-                            </a>
+                        <p>Acesse o repositório do projeto em:</p>
+
+                        <p
+                            onClick={() => window.open("https://github.com/Imovim")}
+                            className="link-repository"
+                        >
+                            https://github.com/Imovim
                         </p>
 
                     </div>

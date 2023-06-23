@@ -261,14 +261,21 @@
     margin-bottom: 15px;
 }
 
-.text-container .links p {
+.link-repository {
+    color: #A512BD;
     font-size: 20px;
+
+    text-decoration: underline;
+
+    cursor: pointer;
 }
 
 .text-container .links {
     border-left: 4px solid #A512BD;
 
     padding: 15px;
+
+    font-size: 20px;
 }
 
 .tools-container {
@@ -498,9 +505,11 @@
         border-left: 5px solid #A512BD;
     }
 
-    .text-container .links a {
+    .link-repository {
         color: #A512BD;
         list-style: none;
+
+        border: none;
     }
 
     .tools-container {
@@ -575,7 +584,7 @@
     .section-2 img {
         display: none;
     }
-    
+
 }
 
 @media (max-width: 400px) {
