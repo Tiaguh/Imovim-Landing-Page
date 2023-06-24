@@ -89,7 +89,7 @@ export default function TelaDownload() {
                         ref={downloadRef}
                     >
 
-                        <a href="https://expo.dev/artifacts/eas/z7DJZA7hP7h57C5skMuwX.apk" download>
+                        <a href="https://expo.dev/artifacts/eas/uatru1UEDS4CXD89zDe6Ci.apk" download>
                             <button>
                                 CLIQUE AQUI PARA BAIXAR
                             </button>
