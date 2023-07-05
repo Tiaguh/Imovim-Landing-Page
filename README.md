@@ -1,14 +1,12 @@
-<h1 align="center"> Imovim APP</h1>
+<h1 align="center"> Imovim Landing Page</h1>
 
 <p align="center">
-  Frontend da aplicação que está sendo desenvolvido para a apresentação do trabalho de conclusão do curso de Desenvolvimento de Sistemas.  <br/>
+  Página de apresentação para o trabalho de conclusão do curso de Desenvolvimento de Sistemas. <br/>
 </p>
 
 <p align="center">
-  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#memo-licença">Licença</a>
+  Acesse a página: 
+  <a href="https://imovim-landing-page.vercel.app/">https://imovim-landing-page.vercel.app</a>
 </p>
 
 <p align="center">
@@ -18,20 +16,12 @@
 <br>
 
 <p align="center">
-  <img alt="capa projeto" src="./Assets/README.md/img/capa.jpg" width="100%">
+  <img alt="capa projeto" src="./src/Assets/img/capa.jpg" width="100%">
 </p>
-
-## 🚀 Tecnologias
-
-Esse projeto foi desenvolvido com as seguintes tecnologias:
-
-- React Native
-- JavaScript
 
 ## 💻 Projeto
 
 Imovim é um projeto voltada ao ambiente esportivo, que tem como principal objetivo unir a comunidade do esporte e incentivar a volta ou o início de práticas físicas e através da interface permitir o compartilhamento de experiências entre os usuários, além de possibilitar o agendamento de eventos com finalidade social. 
-
 
 ## 🧵 Layout
 
